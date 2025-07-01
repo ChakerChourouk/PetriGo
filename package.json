@@ -17,6 +17,7 @@
     "ajv": "^8.17.1",
     "dom-to-image": "^2.6.0",
     "jspdf": "^2.5.1",
+    "lucide-react": "^0.525.0",
     "mathjs": "^12.4.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
