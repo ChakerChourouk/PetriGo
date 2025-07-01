@@ -108,6 +108,6 @@ This project is licensed under the [MIT License](LICENSE).
 ## Contact
 
 Questions, feedback, or contributions?  
-Open an issue or reach out to [MarwaOB](https://github.com/MarwaOB).
+Open an issue or reach out to [ChakerChourouk](https://github.com/ChakerChourouk).
 
 ---
