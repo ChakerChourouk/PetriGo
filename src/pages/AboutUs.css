@@ -1,0 +1,105 @@
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bodyy {
+  padding: 40px 20px;
+  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.containerligne {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.profil {
+  background-color: #015858;
+  border: 1px solid #000;
+  border-radius: 20px;
+  width: 30%;
+  min-width: 250px;
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.profil:hover {
+  background-color: rgba(32, 178, 170, 0.36);
+  transform: scale(1.05);
+}
+
+.profil img {
+  display: block;         /* Make the image respect block-level centering */
+  margin: 10px auto 20px; /* Top margin, auto center, bottom margin */
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profil:hover img {
+  width: 160px;
+  height: 160px;
+}
+
+
+.profil h3 {
+  color: #fff;
+  margin: 10px 0 5px;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.profil:hover h3 {
+  color: #101C28;
+}
+
+.profil p {
+  color: #fff;
+  font-size: 14px;
+  margin: 4px 0;
+  transition: color 0.3s ease;
+}
+
+.profil:hover p {
+  color: #000;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Responsive */
+@media (max-width: 1000px) {
+  .profil {
+    width: 45%;
+  }
+}
+
+@media (max-width: 600px) {
+  .containerligne {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profil {
+    width: 90%;
+  }
+}
